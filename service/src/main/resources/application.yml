@@ -4,11 +4,11 @@ server:
 #TODO: figure out why I need this here and in bootstrap.yml
 spring:
   application:
-    name: testConsulApp
+    name: testConsulAppService
 
-ribbon:
-  listOfServers: localhost:8080, localhost:8081
-  ServerListRefreshInterval: 1000
+#ribbon:
+#  listOfServers: localhost:8080, localhost:8081
+#  ServerListRefreshInterval: 1000
 
 endpoints:
   health:

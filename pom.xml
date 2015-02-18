@@ -6,7 +6,7 @@
     <groupId>com.payu.global.wallet.service.discovery</groupId>
     <artifactId>spring-cloud-consul-demo</artifactId>
     <version>1.0.0.BUILD-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <name>Spring Cloud Consul Demo</name>
     <description>Spring Cloud Consul Demo</description>
 
