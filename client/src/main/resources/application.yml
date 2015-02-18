@@ -7,7 +7,7 @@ spring:
     name: testConsulAppClient
 
 ribbon:
-  listOfServers: localhost:8081, localhost:8082
+#  NIWSServerListClassName: org.springframework.cloud.consul.discovery.ConsulServerList
   ServerListRefreshInterval: 1000
 
 endpoints:
