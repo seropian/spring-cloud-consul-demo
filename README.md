@@ -33,7 +33,7 @@ To see services in consul interface, go to: ```http://localhost:8500```
 To see how client app works with services:
 - list all services registered with consul (including non-java apps): 
 ```localhost:8080/services ```
-- list all service instances by service name: ```localhost:8080/services```
+- list all service instances by service name: ```localhost:8080/instances```
 - let the load balancer to select a service instance: ``` localhost:8080/loadBalancedServiceInstance```
 on refreshing the page you will see how returned instance is different between calls
 - call a service by using the java interface: ```localhost:8080/helloClient```
