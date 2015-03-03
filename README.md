@@ -30,4 +30,4 @@ To see how client app works with services:
 - let the load balancer to select a service instance: ``` localhost:8080/loadBalancedServiceInstance```
 on refreshing the page you will see how returned instance is different between calls
 - call a service by using the java interface: ```localhost:8080/helloClient```
-- helloClient it's loadbalanced by default so on page refresh you shall see reponse coming from different instances
+- helloClient it's load balanced by default so on page refresh you shall see response coming from different instances
